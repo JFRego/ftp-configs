@@ -15,7 +15,7 @@
                 
 -  now open /etc/proftpd.conf file;
 
-        - define passive ports for ftp passive mode;
+        - define passive ports for ftp passive mode under the following line (DefaultRoot                     ~ !adm);
 
                 PassivePorts    6000    6100
 
